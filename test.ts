@@ -1,4 +1,4 @@
-const sayHello = (name) => {
+const sayHello = (sayHello) => {
     return "Hello World! I'm " + name;
 }
 
