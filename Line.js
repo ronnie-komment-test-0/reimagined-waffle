@@ -21,7 +21,7 @@ const Line = ({ data, metric, label }) => {
       const previous = data[data.length - 2][metric];
       const latest = data[data.length - 1][metric];
       setDelta(((100 * (latest - previous)) / previous).toFixed(1));
-
+// Dummy
       const _points = [
         {
           id: metric,
@@ -62,7 +62,7 @@ const Line = ({ data, metric, label }) => {
           ) : null}
         </div>
       </div>
-
+{/*dummy*/}
       <ResponsiveLine
         data={points}
         margin={{ top: 10, right: 10, bottom: 10, left: 10 }}
