@@ -4,7 +4,6 @@ import { ResponsivePie } from "@nivo/pie";
 const _find = (slices, id) => {
   return slices.findIndex((entry) => entry.id === id);
 };
-
 const _contribution = (value, total) => {
   return ((value / total) * 100).toFixed(1);
 };
