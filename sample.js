@@ -5,6 +5,7 @@ function factorial(n) {
         return n * factorial(n - 1);
     }
 }
+
 function isPrime(num) {
     if (num <= 1) return false;
     for (let i = 2; i <= Math.sqrt(num); i++) {
